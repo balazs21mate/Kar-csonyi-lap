@@ -240,7 +240,7 @@ span:nth-child(6){
         height: 60px;
     }
     #grinch{
-        top:400px;
+        top:450px;
         width: 50px;
     }
     @keyframes show-grinch {
