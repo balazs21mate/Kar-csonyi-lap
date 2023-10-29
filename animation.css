@@ -79,7 +79,6 @@ span:nth-child(6){
 .white-box{
     position: absolute;
     background-color: rgb(250,252,249);
-    border-radius: 30%;
     left: 10px;
     top:480px;
     width: 100px;
@@ -93,6 +92,7 @@ span:nth-child(6){
     width: 70px;
     animation-name: show-grinch;
     animation-duration: 5s;
+    animation-delay: 17s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
@@ -234,19 +234,18 @@ span:nth-child(6){
         }
     }
     .white-box{
-        top:500px;
+        top:450px;
         width: 80px;
         height: 60px;
-        border-radius: 0%;
     }
     #grinch{
-        top:490px;
+        top:450px;
         width: 50px;
     }
     @keyframes show-grinch {
-        0%{top:490px;}
-        50%{top:410px;}
-        70%{top:410px;}
-        100%{top:490px;}
+        0%{top:450px;}
+        50%{top:370px;}
+        70%{top:370px;}
+        100%{top:450px;}
     }
 }
