@@ -235,15 +235,18 @@ span:nth-child(6){
         }
     }
     .white-box{
-        top:470px;
+        top:450px;
+        width: 80px;
+        height: 60px;
     }
     #grinch{
-        top:460px;
+        top:440px;
+        width: 50px;
     }
     @keyframes show-grinch {
-        0%{top:470px;}
-        50%{top:400px;}
-        70%{top:400px;}
-        100%{top:470px;}
+        0%{top:450px;}
+        50%{top:380px;}
+        70%{top:380px;}
+        100%{top:450px;}
     }
 }
