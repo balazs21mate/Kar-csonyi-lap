@@ -214,6 +214,7 @@ span:nth-child(6){
     .content-container {
         width: 100%;
         height: 100svh;
+        border-radius: 0;
     }
     .text{
         font-size: 20px;
@@ -224,7 +225,7 @@ span:nth-child(6){
     }
     #santa5{
         left: -550px;
-        width: 400px;
+        width: 80%;
         top:170px;
     }
     @keyframes santa-is-comed {
