@@ -58,7 +58,6 @@ span:nth-child(6){
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
-    z-index: 100;
 }
 .snowball2 {
     display: inline-block;
@@ -160,7 +159,7 @@ span:nth-child(6){
     from{
     }
     to{
-        top: 100%;
+        top: 700px;
     }
 }
 
@@ -225,8 +224,8 @@ span:nth-child(6){
     }
     #santa5{
         left: -550px;
-        width: 80%;
-        top:170px;
+        width: 400px;
+        top:150px;
     }
     @keyframes santa-is-comed {
         from{
