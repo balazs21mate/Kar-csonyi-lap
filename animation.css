@@ -233,20 +233,20 @@ span:nth-child(6){
             left: 15px;
         }
     }
-    /* .white-box{
-        top:480px;
+    .white-box{
+        top:500px;
         width: 80px;
         height: 60px;
         border-radius: 0%;
     }
     #grinch{
-        top:470px;
+        top:490px;
         width: 50px;
     }
     @keyframes show-grinch {
-        0%{top:470px;}
-        50%{top:400px;}
-        70%{top:400px;}
-        100%{top:470px;}
-    } */
+        0%{top:490px;}
+        50%{top:410px;}
+        70%{top:410px;}
+        100%{top:490px;}
+    }
 }
